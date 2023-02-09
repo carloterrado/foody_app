@@ -30,7 +30,7 @@ flutter:
 
   assets:
     - assets/images/
-    - assets/logo
+    - assets/logo/
 
   fonts:
     - family: Raleway
