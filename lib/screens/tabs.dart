@@ -38,7 +38,7 @@ class _TabsScreenState extends State<TabsScreen>
           drawer: CustomDrawer(),
           appBar: AppBar(
             title: Text(
-              "Foody",
+              "Easy Ulam",
               style: Theme.of(context)
                   .textTheme
                   .headline1
