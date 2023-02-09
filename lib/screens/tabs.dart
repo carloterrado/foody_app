@@ -38,23 +38,13 @@ class _TabsScreenState extends State<TabsScreen>
           drawer: CustomDrawer(),
           appBar: AppBar(
             title: Text(
-              "Foody",
+              "Easy Ulam",
               style: Theme.of(context)
                   .textTheme
                   .headline1
                   ?.copyWith(color: Colors.white),
             ),
             backgroundColor: Theme.of(context).primaryColor,
-            actions: [
-              IconButton(
-                onPressed: () {},
-                icon: const Icon(Icons.search),
-              ),
-              IconButton(
-                onPressed: () {},
-                icon: const Icon(Icons.more_vert),
-              ),
-            ],
             bottom: TabBar(
               controller: _tabController,
               indicatorColor: Colors.white,
