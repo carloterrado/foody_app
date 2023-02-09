@@ -36,16 +36,16 @@ class _MyAppState extends State<MyApp> {
       _filters = filterData;
 
       _availableMeals = mealModel.where((meal) {
-        if (_filters['gluten'] == true && !meal.isGlutenFree) {
+        if (_filters['gluten'] == true && !meal.isSweet) {
           return false;
         }
-        if (_filters['lactose'] == true && !meal.isLactoseFree) {
+        if (_filters['lactose'] == true && !meal.isSour) {
           return false;
         }
-        if (_filters['vegan'] == true && !meal.isVegan) {
+        if (_filters['vegan'] == true && !meal.isSalty) {
           return false;
         }
-        if (_filters['vegetarian'] == true && !meal.isVegetarian) {
+        if (_filters['vegetarian'] == true && !meal.isSpicy) {
           return false;
         }
 
@@ -53,7 +53,6 @@ class _MyAppState extends State<MyApp> {
       }).toList();
     });
   }
-
 
   void _toggleFavorite(String mealId) {
     final existingIndex = _favoritesMeals.indexWhere((meal) {

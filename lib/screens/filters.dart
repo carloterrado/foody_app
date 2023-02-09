@@ -90,27 +90,26 @@ class _FiltersScreenState extends State<FiltersScreen> {
             Expanded(
               child: ListView(
                 children: [
-                  _buidSwitchListTile("Gluten-Free",
-                      "Only includ gluten-free measl", _glutenFree, (val) {
+                  _buidSwitchListTile(
+                      "Sweet", "Only include sweet meals", _glutenFree, (val) {
                     setState(() {
                       _glutenFree = val;
                     });
                   }),
                   _buidSwitchListTile(
-                      "Vegetarian", "Only includ Vegetarian measl", _vegetarian,
-                      (val) {
+                      "Spicy", "Only include spicy meals", _vegetarian, (val) {
                     setState(() {
                       _vegetarian = val;
                     });
                   }),
-                  _buidSwitchListTile("Lactose-Free",
-                      "Only includ lactose-free measl", _lactoseFree, (val) {
+                  _buidSwitchListTile(
+                      "Sour", "Only include sour meals", _lactoseFree, (val) {
                     setState(() {
                       _lactoseFree = val;
                     });
                   }),
                   _buidSwitchListTile(
-                      "Vegan", "Only includ vegan measl", _vegan, (val) {
+                      "Salty", "Only include salty meals", _vegan, (val) {
                     setState(() {
                       _vegan = val;
                     });

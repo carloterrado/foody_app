@@ -42,32 +42,28 @@ class _CustomDrawerState extends State<CustomDrawer> {
               children: [
                 const CircleAvatar(
                   radius: 35,
-                  backgroundImage: NetworkImage(
-                      "https://app.znaplink.com/uploads/avatars/1634217360.png"),
+                  backgroundImage: AssetImage('assets/images/logo.jpg'),
                 ),
                 const SizedBox(
                   height: 15,
                 ),
                 const Text(
-                  "AmirHossein Bayat",
+                  "Easy Ulam",
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 23),
                 ),
                 const SizedBox(
                   height: 3,
                 ),
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  mainAxisAlignment: MainAxisAlignment.start,
                   children: [
                     Text(
-                      "AmirBayat.dev@gmail.com",
+                      "easy.ulam@gmail.com",
                       style: TextStyle(
                           fontWeight: FontWeight.w300,
                           fontSize: 15,
                           color: Colors.black.withOpacity(0.4)),
                     ),
-                    const Icon(
-                      Icons.arrow_drop_down,
-                    )
                   ],
                 ),
               ],
@@ -85,7 +81,8 @@ class _CustomDrawerState extends State<CustomDrawer> {
           GestureDetector(
             child: buildListtile("Filters", Icons.settings),
             onTap: () {
-              Navigator.of(context).pushReplacementNamed(FiltersScreen.routeName);
+              Navigator.of(context)
+                  .pushReplacementNamed(FiltersScreen.routeName);
             },
           ),
         ],
