@@ -24,11 +24,27 @@ List<CategoryModel> categoryModel = [
     title: "Dinner",
     color: Colors.purple.shade900,
   ),
-  // CategoryModel(
-  //   id: 'c5',
-  //   title: 'Deserts',
-  //   color: Colors.green,
-  // ),
+  CategoryModel(
+    id: 'c5',
+    title: 'Chicken',
+    color: Colors.brown.shade400,
+  ),
+  CategoryModel(
+    id: 'c6',
+    title: 'Pork',
+    color: Colors.orange.shade500,
+  ),
+  CategoryModel(id: 'c7', title: 'Beef', color: Colors.brown.shade500),
+  CategoryModel(
+    id: 'c8',
+    title: 'Veggies',
+    color: Colors.green.shade500,
+  ),
+  CategoryModel(
+    id: 'c8',
+    title: 'Seafoods',
+    color: Colors.blue.shade400,
+  ),
 ];
 
 List<Meal> mealModel = const [
