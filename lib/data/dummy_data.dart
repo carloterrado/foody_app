@@ -27,7 +27,7 @@ List<CategoryModel> categoryModel = [
   CategoryModel(
     id: 'c5',
     title: 'Chicken',
-    color: Colors.brown.shade400,
+    color: Colors.lime,
   ),
   CategoryModel(
     id: 'c6',
@@ -41,7 +41,7 @@ List<CategoryModel> categoryModel = [
     color: Colors.green.shade500,
   ),
   CategoryModel(
-    id: 'c8',
+    id: 'c9',
     title: 'Seafoods',
     color: Colors.blue.shade400,
   ),
@@ -53,6 +53,7 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c5",
       ],
       title: "Chicken Adobo",
       imageUrl: "assets/images/Chicken-Adobo-Recipe-jpg.webp",
@@ -90,6 +91,7 @@ List<Meal> mealModel = const [
     categories: [
       "c2",
       "c4",
+      "c6",
     ],
     title: "Pork Adobo",
     imageUrl: "assets/images/Pork-Adobo-.jpg",
@@ -124,6 +126,7 @@ List<Meal> mealModel = const [
     categories: [
       "c2",
       "c4",
+      "c8",
     ],
     title: "Adobong Kangkong",
     imageUrl: "assets/images/adobong-kangkong-1.jpg",
@@ -160,6 +163,8 @@ List<Meal> mealModel = const [
       id: "m4",
       categories: [
         "c4",
+        "c6",
+        "c8",
       ],
       title: "Almondigas",
       imageUrl: "assets/images/Almondigas-1.webp",
@@ -243,6 +248,8 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c5",
+        "c8",
       ],
       title: "Asian Chicken Lettuce Wraps",
       imageUrl: "assets/images/Asian-chicken-lettuce-wraps-recipe-1.jpg",
@@ -286,6 +293,7 @@ List<Meal> mealModel = const [
       categories: [
         "c1",
         "c3",
+        "c6",
       ],
       title: "Bacon Stuffed Pancake",
       imageUrl: "assets/images/Fluffy-Pancake-with-Bacon-jpg.webp",
@@ -315,6 +323,8 @@ List<Meal> mealModel = const [
       id: "m8",
       categories: [
         "c2",
+        "c6",
+        "c8",
       ],
       title: "Bagnet Pancit Canton",
       imageUrl: "assets/images/bagnet-pancit-recipe.jpg",
@@ -362,6 +372,8 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c6",
+        "c9",
       ],
       title: "Baked Garlic Salmon and Easy Tofu Sisig",
       imageUrl: "assets/images/Baked-salmon-recipe-2.webp",
@@ -407,6 +419,8 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c7",
+        "c8",
       ],
       title: "Beef Broccoli Recipe with Carrots",
       imageUrl: "assets/images/beef-broccoli-recipe.jpg",
@@ -449,6 +463,7 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c7",
       ],
       title: "Beef Pares",
       imageUrl: "assets/images/Beef-Pares-Stew.jpg",
@@ -486,6 +501,7 @@ List<Meal> mealModel = const [
       categories: [
         "c1",
         "c4",
+        "c7",
       ],
       title: "Beef Pares Lomi",
       imageUrl: "assets/images/Beef-Pares-Lomi-Recipe-Panlasang-Pinoy.jpg",
@@ -525,6 +541,7 @@ List<Meal> mealModel = const [
       id: "m13",
       categories: [
         "c2",
+        "c6",
       ],
       title: "Binagoongang Bagnet",
       imageUrl: "assets/images/Bagnet-binagoongan.jpg",
@@ -568,6 +585,7 @@ List<Meal> mealModel = const [
       id: "m14",
       categories: [
         "c2",
+        "c8",
       ],
       title: "Binagoongang Talong",
       imageUrl: "assets/images/Cooking-Binagoongang-Talong.jpg",
@@ -605,6 +623,7 @@ List<Meal> mealModel = const [
       id: "m15",
       categories: [
         "c2",
+        "c6",
       ],
       title: "Bopis",
       imageUrl: "assets/images/paano-magluto-ng-bopis.jpg",
@@ -650,6 +669,7 @@ List<Meal> mealModel = const [
     categories: [
       'c1',
       'c3',
+      'c6',
     ],
     title: 'Breakfast Burrito',
     affordability: Affordability.affordable,
@@ -684,6 +704,7 @@ List<Meal> mealModel = const [
     categories: [
       'c2',
       'c4',
+      'c7',
     ],
     title: 'Bulalo',
     affordability: Affordability.pricey,
@@ -717,6 +738,7 @@ List<Meal> mealModel = const [
     categories: [
       'c2',
       'c4',
+      'c8',
     ],
     title: 'Caldereta Beef',
     affordability: Affordability.pricey,
@@ -847,6 +869,7 @@ List<Meal> mealModel = const [
     categories: [
       'c2',
       'c4',
+      'c6',
     ],
     title: 'Caldereta (Pork)',
     affordability: Affordability.pricey,
@@ -889,6 +912,7 @@ List<Meal> mealModel = const [
     categories: [
       'c1',
       'c3',
+      'c7',
     ],
     title: 'Cheesy Corned Beef Balls',
     affordability: Affordability.affordable,
@@ -921,6 +945,7 @@ List<Meal> mealModel = const [
     categories: [
       'c1',
       'c3',
+      'c6',
     ],
     title: 'Cheesy Ham Steak With Bacon and Mushrooms',
     affordability: Affordability.affordable,
@@ -954,6 +979,7 @@ List<Meal> mealModel = const [
     categories: [
       'c2',
       'c4',
+      'c5',
     ],
     title: 'Chicken Gising-Gising',
     affordability: Affordability.affordable,
@@ -991,6 +1017,7 @@ List<Meal> mealModel = const [
     categories: [
       'c2',
       'c4',
+      'c5',
     ],
     title: 'Chicken Gizzard Bicol Express',
     affordability: Affordability.affordable,
@@ -1028,6 +1055,7 @@ List<Meal> mealModel = const [
     id: 'm27',
     categories: [
       'c1',
+      'c5',
     ],
     title: 'Chicken Sopas',
     affordability: Affordability.affordable,
@@ -1072,6 +1100,7 @@ List<Meal> mealModel = const [
     categories: [
       'c2',
       'c4',
+      'c9',
     ],
     title: 'Chili Garlic Crab and Shrimp',
     affordability: Affordability.pricey,
@@ -1116,6 +1145,7 @@ List<Meal> mealModel = const [
     categories: [
       'c2',
       'c4',
+      'c8',
     ],
     title: 'Chopsuey',
     affordability: Affordability.pricey,
@@ -1165,6 +1195,7 @@ List<Meal> mealModel = const [
     categories: [
       'c2',
       'c4',
+      'c5',
     ],
     title: 'Christmas Chicken Curry',
     affordability: Affordability.affordable,
@@ -1206,6 +1237,7 @@ List<Meal> mealModel = const [
         "c1",
         "c2",
         "c4",
+        "c5",
       ],
       title: "Corned Beef Guisado",
       imageUrl: "assets/images/cornedbeef.jpg",
@@ -1241,6 +1273,7 @@ List<Meal> mealModel = const [
         "c2",
         "c3",
         "c4",
+        "c5",
       ],
       title: "Creamy Chicken Pasta with Bacon",
       imageUrl: "assets/images/creamychickenpasta.webp",
@@ -1287,6 +1320,7 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c5",
       ],
       title: "Creamy Mushroom Chicken",
       imageUrl: "assets/images/creamychicken.webp",
@@ -1363,6 +1397,7 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c6",
       ],
       title: "Crispy Lechon Belly with Bacon",
       imageUrl: "assets/images/lechonbelly.webp",
@@ -1398,6 +1433,7 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c6",
       ],
       title: "Crispy Pata Dinakdakan",
       imageUrl: "assets/images/dinakdakan-jpg.webp",
@@ -1436,6 +1472,7 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c6",
       ],
       title: "Crispy Pata Kare-Kare",
       imageUrl: "assets/images/patakarekare.webp",
@@ -1483,6 +1520,7 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c5",
       ],
       title: "Curry (Chicken Katsu)",
       imageUrl: "assets/images/katsucurry.webp",
@@ -1521,6 +1559,7 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c5",
       ],
       title: "Curry (Chicken)",
       imageUrl: "assets/images/chickencurry.webp",
@@ -1561,6 +1600,7 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c6",
       ],
       title: "Dinuguan",
       imageUrl: "assets/images/dinuguan.jpg",
@@ -1599,6 +1639,8 @@ List<Meal> mealModel = const [
         "c2",
         "c3",
         "c4",
+        "c5",
+        "c6",
       ],
       title: "Embutido Cordon Bleu",
       imageUrl: "assets/images/embutidocordon.webp",
@@ -1652,6 +1694,7 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c9",
       ],
       title: "Escabeche",
       imageUrl: "assets/images/escabeche.jpg",
@@ -1695,6 +1738,7 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c6",
       ],
       title: "Estofado",
       imageUrl: "assets/images/estofado.jpg",
@@ -1735,6 +1779,8 @@ List<Meal> mealModel = const [
       categories: [
         "c1",
         "c3",
+        "c5",
+        "c8",
       ],
       title: "Filipino Chicken Pasta Alfredo",
       imageUrl: "assets/images/alfredopasta.jpg",
@@ -1774,6 +1820,7 @@ List<Meal> mealModel = const [
       categories: [
         "c2",
         "c4",
+        "c5",
       ],
       title: "Fried Chicken with Mayo Garlic Glaze",
       imageUrl: "assets/images/chickengarlic.webp",
@@ -1813,7 +1860,7 @@ List<Meal> mealModel = const [
       isSalty: false),
   Meal(
     id: "m46",
-    categories: ["c2", "c4"],
+    categories: ["c2", "c4", "c7"],
     title: "Garlic Pepper Beef",
     imageUrl: "assets/images/garlic-pepper-beef-jpg.webp",
     ingredients: [
@@ -1852,7 +1899,12 @@ List<Meal> mealModel = const [
   ),
   Meal(
     id: "m47",
-    categories: ["c2", "c4"],
+    categories: [
+      "c2",
+      "c4",
+      "c8",
+      "c9",
+    ],
     title: "Ginataang Gulay (w/ Tofu and Shrimp)",
     imageUrl: "assets/images/Healthy-Ginataang-Gulay-with-Shrimp.jpg",
     ingredients: [
@@ -1890,7 +1942,12 @@ List<Meal> mealModel = const [
   ),
   Meal(
     id: "m48",
-    categories: ["c2", "c4"],
+    categories: [
+      "c2",
+      "c4",
+      "c8",
+      "c9",
+    ],
     title: "Ginataang Hipon (Sitaw at Kalabasa)",
     imageUrl: "assets/images/Ginataang-Hipon-2.webp",
     ingredients: [
@@ -1926,7 +1983,7 @@ List<Meal> mealModel = const [
   ),
   Meal(
     id: "m49",
-    categories: ["c2", "c4"],
+    categories: ["c2", "c4", "c8"],
     title: "Ginataang Monggo (w/ Tofu and Malunggay)",
     imageUrl: "assets/images/Ginataang-Monggo-with-Tofu-and-Malunggay.jpg",
     ingredients: [
@@ -1961,7 +2018,7 @@ List<Meal> mealModel = const [
   ),
   Meal(
     id: "m50",
-    categories: ["c2", "c4"],
+    categories: ["c2", "c4", "c8"],
     title: "Ginisang Ampalaya",
     imageUrl: "assets/images/Ginisang-Ampalaya-with-Eggs.webp",
     ingredients: [
@@ -1996,7 +2053,7 @@ List<Meal> mealModel = const [
   ),
   Meal(
     id: "m51",
-    categories: ["c2", "c4"],
+    categories: ["c2", "c4", "c8"],
     title: "Ginisang Labanos",
     imageUrl: "assets/images/ginisang-labanos-recipe.jpg",
     ingredients: [
@@ -2031,7 +2088,7 @@ List<Meal> mealModel = const [
   ),
   Meal(
     id: "m52",
-    categories: ["c2", "c4"],
+    categories: ["c2", "c4", "c8"],
     title: "Ginisang Munggo",
     imageUrl: "assets/images/Ginisang-Munggo-704x1024.jpg",
     ingredients: [
@@ -2070,7 +2127,7 @@ List<Meal> mealModel = const [
   ),
   Meal(
     id: "m53",
-    categories: ["c2", "c4"],
+    categories: ["c2", "c4", "c8"],
     title: "Ginisang Sigarilyas",
     imageUrl: "assets/images/Ginisang-Sigarilyas-Panlasang-Pinoy-671x1024.jpg",
     ingredients: [
@@ -2138,7 +2195,7 @@ List<Meal> mealModel = const [
   ),
   Meal(
     id: "m55",
-    categories: ["c2", "c4"],
+    categories: ["c2", "c4", "c6"],
     title: "Igado",
     imageUrl: "assets/images/pork-igado-recipe-jpg.webp",
     ingredients: [
@@ -2218,7 +2275,7 @@ List<Meal> mealModel = const [
   ),
   Meal(
     id: "m57",
-    categories: ["c2", "c4"],
+    categories: ["c2", "c4", "c8"],
     title: "Laing",
     imageUrl: "assets/images/Laing.jpg",
     ingredients: [
@@ -2305,7 +2362,7 @@ List<Meal> mealModel = const [
   ),
   Meal(
     id: "m59",
-    categories: ["c2", "c4"],
+    categories: ["c2", "c4", "c6"],
     title: "Lechon Paksiw",
     imageUrl: "assets/images/Lechon-Paksiw-Recipe-Panlasang-Pinoy.jpg",
     ingredients: [
@@ -2341,7 +2398,7 @@ List<Meal> mealModel = const [
   ),
   Meal(
     id: "m60",
-    categories: ["c2", "c4"],
+    categories: ["c2", "c4", "c6"],
     title: "Lechon Kawali",
     imageUrl: "assets/images/Lechon-Kawali-Recipe-500x485.jpg",
     ingredients: [
